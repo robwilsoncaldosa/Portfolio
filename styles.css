@@ -18,12 +18,11 @@ html {
     /* Complementary background color */
     --main-color: #d2b48c;
     /* Subtle gray color */
-    --text-color: #333;
+    --text-color: #444;
     --second-text-color: #555;
     --white-color: #fff;
     ---cover-color: linear-gradient(45deg, #cccccc, #b2b2b2);
-    /* Subtle gray color gradient */
-    --pages-color: linear-gradient(90deg, #fff, #ddd);
+    --pages-color: linear-gradient(90deg, #fff,#faf4ee);
     --border: .125rem solid #d2b48c;
     /* Border color matching the subtle gray */
     --box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
@@ -37,7 +36,11 @@ body {
     min-height: 100vh;
     background: var(--bg-color);
     position: relative;
+    color: var(--text-color);
 }
+
+
+
 
 #scrollToTopBtn {
     position: fixed;
@@ -139,7 +142,7 @@ body {
 }
 
 .profile-page img {
-    max-width: 180px;
+    max-width: 200px;
     border-radius: 50%;
     border: .25rem solid var(--main-color);
     margin-bottom: .8rem;
@@ -530,3 +533,4 @@ body {
     transform: translateX(-50%) scale(1);
     top: -1.8rem;
 }
+
